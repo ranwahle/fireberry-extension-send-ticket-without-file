@@ -1,6 +1,6 @@
 {
-    "name": "Send Fireberry ticket without file",
-    "description": "Send Fireberry ticket without file",
+    "name": "Send Fireberry ticket without the need to upload a file",
+    "description": "Sends default content for file in fireberry ticket form",
     "version": "0.0.1",
     "manifest_version": 3,
     "permissions": [ ],
@@ -9,7 +9,7 @@
     
       {
         "matches": ["https://*.fireberry.com/*", "https://*.powerlink.co.il/*"],
-        "js": ["auto-empty-file.js"],
+        "js": ["send-default-content-for-file.js"],
         "all_frames": true
        
       }
